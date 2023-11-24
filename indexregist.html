@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+</head>
+
+<body style="margin: 0; overflow: hidden;">
+    <div style="display: flex; flex-direction: column; height: 100vh;">
+        <div style="display: flex; align-items: center; height: 7%; background-color: PaleGreen; text-align: left;">
+            <div style="width: 5%;">
+                <img src="logo1.jpg" alt="Logo" height="60px" width="60px">
+            </div>
+            <div style="width: 95%;">
+                <h1 style="font-size: 50px; margin: 0;">Online Exam System</h1>
+            </div>
+        </div>
+
+        <div style="display: flex; height: 95%;">
+            <div style="width: 15%; height: 100%; background-color: #90EE90; text-align: left; padding: 10px;">
+                <a href="index.html">Home</a><br>
+                <a href="indexSyllabus.html">Monthly Schedule</a><br>
+                <a href="indexlink.html">Syllabus</a><br>
+                <a href="indexregist.html">Registration</a>
+            </div>
+
+            <div style="width: 85%; height: 100%; padding: 10px;">
+                <b>
+                    <p style="height:50px; text-align:center; font-size:30px; font-weight:bold;">
+                        Registration
+                    </p>
+                </b>
+                <form>
+                    <table style="border: 1px solid black; margin-left: auto; margin-right: auto; width: 40%;">
+                        <tr>
+                            <th style="border: 1px solid black;">
+                                <label for="name">Name</label>
+                            </th>
+                            <th style="border: 1px solid black;">
+                                <input type="text" id="name" name="name">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="border: 1px solid black;">
+                                <label for="email">Email</label>
+                            </th>
+                            <th style="border: 1px solid black;">
+                                <input type="text" id="email" name="email">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="border: 1px solid black;">
+                                <label for="exam">Exam</label>
+                            </th>
+                            <th style="border: 1px solid black;">
+                                <select id="exam" name="exam">
+                                    <option value="select">Select</option>
+                                    <option value="PGDAC">PGDAC</option>
+                                    <option value="CCEE">CCEE</option>
+                                    <option value="CET">CET</option>
+                                </select>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="border: 1px solid black;">
+                                <label for="dob">DOB</label>
+                            </th>
+                            <th style="border: 1px solid black;">
+                                <input type="date" id="dob" name="dob">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="border: 1px solid black; text-align: center;">
+                                <button type="button">Register</button>
+                                <button type="button">Submit</button>
+                            </th>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+        <div style="height: 5%; background-color: brown; text-align: left;">
+            <b><p style="margin: 0;">Designed by Ginni Aggarwal, Noida &copy; 2023. All Rights Reserved.</p><b>
+        </div>
+    </div>
+</body>
+
+</html>
